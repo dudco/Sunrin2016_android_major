@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="year">
+        <item>외국에서</item>
+        <item>밤마다</item>
+        <item>어릴 적 부터</item>
+        <item>부모 잘못 만나서</item>
+        <item>타고나길</item>
+        <item>참하게 생겨서는</item>
+        <item>매일 아침마다</item>
+        <item>할일 없이</item>
+        <item>하루도 안빠지고</item>
+        <item>재수 없게</item>
+    </string-array>
+
+    <string-array name="months">
+        <item name="month_1">남의 심부름만 하던</item>
+        <item name="month_2">굶을 일은 없었던</item>
+        <item name="month_3">돈만 펑펑 쓰던</item>
+        <item name="month_4">쫄쫄 굶었던</item>
+        <item name="month_5">개 끌고 산책만 하던</item>
+        <item name="month_6">쳐먹기만 했던</item>
+        <item name="month_7">사기를 잘 치던</item>
+        <item name="month_8">밖을 싸돌아다니던</item>
+        <item name="month_9">남을 괴롭히기 좋아하던</item>
+        <item name="month_10">애인을 갈아치우던</item>
+        <item name="month_11">책 읽기를 좋아하던</item>
+        <item name="month_12">밤일만 밝히던</item>
+    </string-array>
+
+    <string-array name="days">
+        <item name="day_1">미인대회 탈락자</item>
+        <item name="day_2">조폭 두목</item>
+        <item name="day_3">노름꾼</item>
+        <item name="day_4">게이</item>
+        <item name="day_5">내시</item>
+        <item name="day_6">동네 바보</item>
+        <item name="day_7">의사</item>
+        <item name="day_8">친일파</item>
+        <item name="day_9">백정</item>
+        <item name="day_10">바람둥이</item>
+        <item name="day_11">귀족</item>
+        <item name="day_12">노숙자</item>
+        <item name="day_13">빵셔틀</item>
+        <item name="day_14">왕비</item>
+        <item name="day_15">흥부네 막내</item>
+        <item name="day_16">재별집 자식</item>
+        <item name="day_17">돌쇠</item>
+        <item name="day_18">왕초</item>
+        <item name="day_19">대통령 자식</item>
+        <item name="day_20">이장님</item>
+        <item name="day_21">앞잡이</item>
+        <item name="day_22">예술가</item>
+        <item name="day_23">왕자</item>
+        <item name="day_24">대통령</item>
+        <item name="day_25">기생</item>
+        <item name="day_26">사업가</item>
+        <item name="day_27">추노</item>
+        <item name="day_28">아랍 석유 재벌</item>
+        <item name="day_29">노예</item>
+        <item name="day_30">공주</item>
+        <item name="day_31">빵집점원</item>
+
+    </string-array>
+</resources>

@@ -14,23 +14,29 @@
         android:id="@+id/text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="문자열 복사"
+        android:text="2016_12_19"
         android:textColor="@color/md_red_A700"
-        android:textSize="22sp"/>
-    <EditText
-        android:id="@+id/edit"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="@color/md_light_green_A700"/>
+        android:textSize="17sp"/>
     <Button
-        android:id="@+id/btn"
+        android:id="@+id/btn_1219"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/md_light_blue_A700"
-        android:text="버튼" />
-    <!--<Button-->
-        <!--android:id="@+id/btn2"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:text="화면이동"/>-->
+        android:text="@string/btn_move"
+        android:textSize="17sp"/>
+
+    <TextView
+        android:id="@+id/text_1219"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2016_12_21"
+        android:textColor="@color/md_red_A700"
+        android:textSize="17sp"/>
+    <Button
+        android:id="@+id/btn_1221"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/md_light_blue_A700"
+        android:text="@string/btn_move"
+        android:textSize="17sp"/>
 </LinearLayout>

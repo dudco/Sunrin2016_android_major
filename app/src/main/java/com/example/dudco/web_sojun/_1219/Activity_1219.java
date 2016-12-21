@@ -18,11 +18,15 @@ import java.util.GregorianCalendar;
 
 import static android.R.id.edit;
 
+/***
+ * 12월 19일
+ * 숙제
+ */
 public class Activity_1219 extends AppCompatActivity {
 
-    boolean check = false;
-    int year, month, day;
-    TextView edit_year, edit_month, edit_day;
+    private boolean check = false;
+    private int year, month, day;
+    private TextView edit_year, edit_month, edit_day;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -17,7 +17,8 @@
         </activity>
         <activity android:name="._1219.Activity_1219" />
         <activity android:name="._1219.Activity_Sub" />
-        <activity android:name=".Activity_1221"></activity>
+        <activity android:name="._1221.Activity_1221" />
+        <activity android:name="._1221.Activity_1221class"></activity>
     </application>
 
 </manifest>

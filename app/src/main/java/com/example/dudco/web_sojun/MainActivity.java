@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.example.dudco.web_sojun._1219.Activity_1219;
+import com.example.dudco.web_sojun._1221.Activity_1221;
+import com.example.dudco.web_sojun._1221.Activity_1221class;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
     @Override
@@ -15,6 +17,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         findViewById(R.id.btn_1219).setOnClickListener(this);
         findViewById(R.id.btn_1221).setOnClickListener(this);
+        findViewById(R.id.btn_1221_class).setOnClickListener(this);
     }
 
     @Override
@@ -22,6 +25,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (v.getId()){
             case R.id.btn_1219 : startActivity(new Intent(MainActivity.this, Activity_1219.class)); break;
             case R.id.btn_1221 : startActivity(new Intent(MainActivity.this, Activity_1221.class)); break;
+            case R.id.btn_1221_class : startActivity(new Intent(MainActivity.this, Activity_1221class.class)); break;
         }
     }
 }

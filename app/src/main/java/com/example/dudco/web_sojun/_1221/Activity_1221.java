@@ -1,4 +1,4 @@
-package com.example.dudco.web_sojun;
+package com.example.dudco.web_sojun._1221;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -11,9 +11,15 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.dudco.web_sojun.R;
+
+/***
+ * 12월 21일
+ * 숙제
+ */
 public class Activity_1221 extends AppCompatActivity {
-    EditText edit;
-    TextView text;
+    private EditText edit;
+    private TextView text;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

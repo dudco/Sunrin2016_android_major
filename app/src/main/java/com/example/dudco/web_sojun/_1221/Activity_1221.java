@@ -15,7 +15,7 @@ import com.example.dudco.web_sojun.R;
 
 /***
  * 12월 21일
- * 숙제
+ * 숙제ㅁ
  */
 public class Activity_1221 extends AppCompatActivity {
     private EditText edit;

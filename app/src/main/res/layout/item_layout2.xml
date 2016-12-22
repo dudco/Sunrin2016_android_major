@@ -5,24 +5,26 @@
     android:layout_height="match_parent">
 
     <ImageView
-        android:id="@+id/item_image"
+        android:id="@+id/item_image2"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:src="@mipmap/ic_launcher"
-        android:layout_marginEnd="20dp"/>
+        android:layout_gravity="right"/>
 
     <TextView
-        android:id="@+id/item_text_name"
+        android:id="@+id/item_text_name2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/md_red_A100"
         android:textSize="20sp"
-        android:text="test"/>
+        android:text="test"
+        android:gravity="right" />
     <TextView
-        android:id="@+id/item_text_id"
+        android:id="@+id/item_text_id2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/md_light_blue_600"
         android:textSize="20sp"
-        android:text="test"/>
+        android:text="test"
+        android:gravity="right" />
 </LinearLayout>

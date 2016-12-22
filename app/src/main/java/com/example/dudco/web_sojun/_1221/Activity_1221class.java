@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
+import android.widget.ListView;
 import android.widget.Toast;
 
 import com.example.dudco.web_sojun.R;
@@ -17,7 +18,7 @@ import java.util.List;
  * 수업
  */
 public class Activity_1221class extends AppCompatActivity {
-    private GridView grid;
+    private ListView grid;
     private String[] ITEMS = { "A", "B", "C", "D", "E"};
     private List<StuData> stuList = new ArrayList<>();
     @Override
@@ -25,11 +26,11 @@ public class Activity_1221class extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_1221class);
 
-        grid = (GridView) findViewById(R.id.grid);
-        stuList.add(new StuData("박태준" , 7474));
-        stuList.add(new StuData("강은솔" , 6969));
-        stuList.add(new StuData("심 훈" , 5877));
-        stuList.add(new StuData("윤영채" , 1004));
+        grid = (ListView) findViewById(R.id.list);
+        stuList.add(new StuData(true, "박태준" , 7474));
+        stuList.add(new StuData(false, "강은솔" , 6969));
+        stuList.add(new StuData(true, "심 훈" , 5877));
+        stuList.add(new StuData(false, "윤영채" , 1004));
 
 //        ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, ITEMS);
         CustomAdapter adapter = new CustomAdapter(stuList);

@@ -66,4 +66,19 @@
         android:textColor="@color/md_light_blue_A700"
         android:text="@string/btn_move"
         android:textSize="17sp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2016_12_23"
+        android:textColor="@color/md_red_A700"
+        android:textSize="17sp"/>
+    <Button
+        android:id="@+id/btn_1223"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/md_light_blue_A700"
+        android:text="@string/btn_move"
+        android:textSize="17sp"/>
 </LinearLayout>

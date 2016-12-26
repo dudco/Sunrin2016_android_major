@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.dudco.web_sojun">
-    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -20,7 +22,8 @@
         <activity android:name="._1221.Activity_1221" />
         <activity android:name="._1221.Activity_1221class" />
         <activity android:name="._1222.Activity_1222" />
-        <activity android:name="._1223.Activity_1223"></activity>
+        <activity android:name="._1223.Activity_1223" />
+        <activity android:name="._1226.Activity_1226"></activity>
     </application>
 
 </manifest>

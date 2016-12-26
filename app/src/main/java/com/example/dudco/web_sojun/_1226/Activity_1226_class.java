@@ -9,13 +9,19 @@ import com.example.dudco.web_sojun.R;
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.AsyncHttpResponseHandler;
 
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
 import cz.msebera.android.httpclient.Header;
 
 public class Activity_1226_class extends AppCompatActivity {
-    private  TextView text1, text2, text3;
+    private  TextView text1;
+    private String JSONData = "{ 'books':[" +
+                                "{ 'language': 'java', 'edition': 'second'}" +
+                               ",{ 'language': 'C++', 'lastName': 'sung'}" +
+                               "]" +
+                              "}";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,33 +29,17 @@ public class Activity_1226_class extends AppCompatActivity {
 
         text1 = (TextView) findViewById(R.id.text1);
 
-        AsyncHttpClient client = new AsyncHttpClient();
-        client.get("http://skpla.net/ggqME", new AsyncHttpResponseHandler() {
-            @Override
-            public void onSuccess(int statusCode, Header[] headers, byte[] responseBody) {
-                 Log.d("dudco", new String(responseBody));
-                try {
-                    JSONObject object = new JSONObject(new String(responseBody));
-                    text1.setText("a :"+String.valueOf(object.get("a"))+"  b :"+String.valueOf(object.get("b"))+"  c:"+String.valueOf(object.get("c")));
-                } catch (JSONException e) {
-                    e.printStackTrace();
-                }
-            }
-
-            @Override
-            public void onFailure(int statusCode, Header[] headers, byte[] responseBody, Throwable error) {
-
-            }
-        });
-
-        String getServerData="{domino:'100',pizza:'맛있다'}";
         try {
-            JSONObject jsonObject = new JSONObject(getServerData);
+            JSONObject object = new JSONObject(JSONData);
+            JSONArray books = object.getJSONArray("books");
+            String language1 = books.getJSONObject(0).getString("language");
+            String edition = books.getJSONObject(0).getString("edition");
+            String language2 = books.getJSONObject(1).getString("language");
+            String lastname = books.getJSONObject(1).getString("lastName");
 
-            String a = jsonObject.getString("domino");
-            String b = jsonObject.getString("pizza");
+            Log.d("dudco", "language1 : " + language1 + "\nedition : "+ edition + "\nlanguage2 : " + language2 + "\nlastName" + lastname);
 
-            Log.i("dudco","a" + a + "b " + b );
+//            text1.setText("a :"+String.valueOf(object.get("a"))+"  b :"+String.valueOf(object.get("b"))+"  c:"+String.valueOf(object.get("c")));
         } catch (JSONException e) {
             e.printStackTrace();
         }
